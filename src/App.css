@@ -1,0 +1,100 @@
+/* Container styling with subtle gradient background */
+.github-search-container {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #e0f7fa, #f1f1f1); /* Soft blue to light gray gradient background */
+  min-height: 100vh;
+}
+
+/* Title styling */
+.title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Search bar container */
+.search-bar {
+  margin-top: 20px;
+}
+
+/* Input field styling */
+.input-field {
+  padding: 12px;
+  width: 300px;
+  font-size: 18px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.input-field:focus {
+  border-color: #007BFF;  /* Soft blue color for focus border */
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);  /* Soft blue shadow effect */
+}
+
+/* Search button styling */
+.search-button {
+  padding: 12px 20px;
+  font-size: 18px;
+  margin-left: 10px;
+  background-color: #007BFF;  /* Soft blue button */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.search-button:hover {
+  background-color: #0056b3;  /* Darker blue on hover */
+  transform: translateY(-2px);
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* User profile card */
+.user-profile {
+  margin-top: 30px;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  display: inline-block;
+  background-color: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.user-profile:hover {
+  transform: scale(1.05);
+}
+
+/* Profile image */
+.profile-image {
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+/* Profile link */
+.profile-link {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #007BFF;  /* Soft blue profile link */
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.profile-link:hover {
+  background-color: #0056b3;  /* Darker blue on hover */
+}
